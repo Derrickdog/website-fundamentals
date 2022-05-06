@@ -1,2 +1,2 @@
-# git_test
-Testing GitHub
+# template-website
+Examples of various website elements
