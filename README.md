@@ -1,2 +1,2 @@
-# template-website
+# practice-website
 Examples of various website elements
