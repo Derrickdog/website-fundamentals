@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <title>Practice Website</title>
     <link rel="stylesheet" href="style.css">
+    <!--link rel="stylesheet" href="https://www.w3schools.com/html/styles.css"-->
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
 <body>
     <h1>Homepage</h1><hr>
     <!--p>By Derrick</p-->
-
+    <a href="#links">Jump to links</a>
     <h2>Paragraphs</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, distinctio ipsa. Sunt a modi rerum quaerat voluptatum qui doloribus dolorum mollitia odit esse, ipsa dignissimos illo voluptates atque? Maxime, repellendus!</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae nobis rerum culpa eveniet dolores at iure obcaecati debitis, eos ullam commodi repellat dignissimos eaque blanditiis quos, perferendis impedit enim?</p>
@@ -19,7 +21,23 @@
 
     <h2>Elements</h2>
     <strong>strong element</strong><br>
-    <em>emphasized element</em>
+    <em>emphasized element</em><br>
+    <small>small element</small><br>
+    <mark>marked element</mark><br>
+    <del>deleted element</del><br>
+    <sub>subscripted element</sub><br>
+    <sup>superscripted element</sup><br>
+    <q>quoted element</q>
+
+    <h2>Blockquote</h2>
+    <p>Here is a quote from WWF's website:</p>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+    For 50 years, WWF has been protecting the future of nature.
+    The world's leading conservation organization,
+    WWF works in 100 countries and is supported by
+    1.2 million members in the United States and
+    close to 5 million globally.
+    </blockquote>
 
     <h2>Unordered List</h2>
     <ul>
@@ -34,7 +52,7 @@
         <li>Item 3</li>
     </ol>
 
-    <h2>Links</h2>
+    <h2 id="links">Links</h2>
     <h3>Absolute Links</h3>
     <a href="https://www.theodinproject.com/about">The Odin Project</a><br>
     <a href="https://www.google.com">Google</a><br>
@@ -52,5 +70,36 @@
     <h3>Relative Image</h3>
     <!--img src="dog.jpg"-->
     <img src="./images/dog.jpg" alt="A Dog">
+
+    <h3>Image Link</h3>
+    <a href=./pages/selectors.html><img src="https://www.w3schools.com/images/w3schools_green.jpg"></a>
+
+    <h2>Table</h2>
+    <table>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+
+      <h2>Div</h2>
+      <div style="background-color:black;color:white;padding:20px;">
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+      </div>
+
+      <h2>Span</h2>
+      <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
 </body>
 </html>

@@ -6,8 +6,39 @@ body{
     color: white;
     background-color: dodgerblue;
     /*text-align: center;*/
+    margin: 50px;
+    font-size: 125%;
+}
+p{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px;
 }
 img{
     width: 25%;
     height: auto;
 }
+
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: yellow;
+    background-color: black;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
