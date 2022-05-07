@@ -1,2 +1,2 @@
-# practice-website
-Examples of various website elements
+# Website Fundamentals
+Examples of various website elements and styles
