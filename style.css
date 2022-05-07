@@ -1,4 +1,13 @@
-h1{
+body{
+    font-family: Helvetica, Tahoma, Arial, sans-serif;
+    /*font-family: "Courier New", monospace;*/
+    /*font-family: Georgia, serif;*/
+    /*font-family: Copperplate, Papyrus, fantasy;*/
     color: white;
-    background-color: black;
+    background-color: dodgerblue;
+    /*text-align: center;*/
+}
+img{
+    width: 25%;
+    height: auto;
 }
