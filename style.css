@@ -18,6 +18,10 @@ img{
     width: 25%;
     height: auto;
 }
+.big{
+  font-size: 26px;
+  font-weight: bold;
+}
 
 a:link {
     color: yellow;

@@ -1,0 +1,22 @@
+*{
+    margin: 15px;
+    font-family: "Trirong", "Audiowide";
+}
+h1{
+    background-color: lightpink;
+    height: 100px;
+    width: 50%;
+    text-align: center;
+    vertical-align: center;
+    text-shadow: 2px 2px 5px red;
+    font-size: 10vw;
+}
+p{
+    background-color: powderblue;
+    max-width: 400px;
+    border: 15px solid green;
+    padding: 50px;
+    text-decoration: overline;
+    text-decoration-color: red;
+    text-transform: capitalize;
+}
