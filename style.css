@@ -28,21 +28,31 @@ a:link {
     background-color: transparent;
     text-decoration: none;
   }
-  
   a:visited {
     color: yellow;
     background-color: transparent;
     text-decoration: none;
   }
-  
   a:hover {
     color: dodgerblue;
     background-color: yellow;
     text-decoration: none;
   }
-  
   a:active {
-    color: yellow;
+    color: dodgerblue;
     background-color: transparent;
     text-decoration: none;
+  }
+
+  ul{
+    list-style-type: circle;
+  }
+
+  table, th, td {
+    border: 1px solid;
+    width: 75%;
+    padding: 10px;
+    background-color: pink;
+    color: black;
+    border-radius: 25px;
   }
