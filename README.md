@@ -1,2 +1,2 @@
 # Website Fundamentals
-Examples of various website elements and styles
+https://derrickdog.github.io/website-fundamentals/
