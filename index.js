@@ -1,21 +1,3 @@
-// fizz buzz
-function fizzBuzz(num){
-    for(let i = 1; i <= num; i++){
-        if(i % 3 == 0 && i % 5 == 0)
-            console.log("FizzBuzz")
-        else if(i % 3 == 0)
-            console.log("Fizz");
-        else if(i % 5 == 0)
-            console.log("Buzz");
-        else
-            console.log(i);
-    }
-}
-/*
-let input = prompt("Enter a number");
-fizzBuzz(input);
-*/
-
 console.log("Hello World!");
 
 // variables
@@ -270,3 +252,21 @@ let average = (num1, num2) => {
     return total / 2;
 };
 console.log(average(6, 6));
+
+// fizz buzz
+function fizzBuzz(num){
+    for(let i = 1; i <= num; i++){
+        if(i % 3 == 0 && i % 5 == 0)
+            console.log("FizzBuzz")
+        else if(i % 3 == 0)
+            console.log("Fizz");
+        else if(i % 5 == 0)
+            console.log("Buzz");
+        else
+            console.log(i);
+    }
+}
+/*
+let input = prompt("Enter a number");
+fizzBuzz(input);
+*/
