@@ -308,3 +308,12 @@ console.log(filtered);
 const filtered2 = cars.filter((car) => car.startsWith("B"));
 console.log(filtered2);
 
+// loops
+for(const car of cars){
+	console.log(car);
+}
+
+// launch countdown
+for(let i = 10; i > -1; i--){
+	console.log(i);
+}
