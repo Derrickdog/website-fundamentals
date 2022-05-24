@@ -270,3 +270,41 @@ function fizzBuzz(num){
 let input = prompt("Enter a number");
 fizzBuzz(input);
 */
+
+// arrays
+const cars = ["Saab", "Volvo", "BMW"];
+cars.push("Tesla");
+cars.sort();
+console.log(cars);
+
+for(let i = 0; i < cars.length; i++){
+	console.log(cars[i]);
+}
+
+// object
+const person = {firstname:"John", lastname:"Smith", age:22};
+console.log(person);
+
+// map
+function toUpper(string){
+	return string.toUpperCase();
+}
+
+const upperCars = cars.map(toUpper);
+console.log(upperCars);
+
+const lowerCars = cars.map((car) => car.toLowerCase());
+console.log(lowerCars);
+
+
+// filter
+function tCar(car){
+	return car.startsWith("T");
+}
+
+const filtered = cars.filter(tCar);
+console.log(filtered);
+
+const filtered2 = cars.filter((car) => car.startsWith("B"));
+console.log(filtered2);
+
