@@ -317,3 +317,37 @@ for(const car of cars){
 for(let i = 10; i > -1; i--){
 	console.log(i);
 }
+
+// reverse string
+const reverseString = function(string) {
+	return string.split('').reverse().join('');
+};
+
+console.log(reverseString("hello"));
+
+// remove array index
+const removeFromArrayIndex = function(array, index) {
+    return array.slice(0, index).concat(array.slice(index+1));
+};
+
+console.log(cars);
+console.log(removeFromArrayIndex(cars, 1));
+
+// sum ints
+function sumInts(num1, num2){
+	let total = 0;
+	for(let i = num1; i <= num2; i++){
+		total += i;
+	}
+	return total;
+}
+
+console.log(sumInts(1, 4));
+
+// temperature conversion
+const ftoc = function(temp) {
+	let ret = (temp - 32) * (5/9);
+	return Math.round(ret*10) / 10;
+  };
+
+console.log(ftoc(-10));
