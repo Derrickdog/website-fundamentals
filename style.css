@@ -9,7 +9,7 @@ body{
     margin: 50px;
     font-size: 125%;
 }
-p{
+p, .headings{
     border: 2px solid white;
     border-radius: 5px;
     padding: 10px;
@@ -23,13 +23,32 @@ img{
   font-weight: bold;
 }
 
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+  
+}
+nav li{
+  background-color: pink;
+  border: 2px solid black;
+  
+}
+li a{
+  display: block;
+  padding: 10px;
+  
+  
+}
+
 a:link {
-    color: yellow;
+    color: black;
     background-color: transparent;
     text-decoration: none;
   }
   a:visited {
-    color: yellow;
+    color: black;
     background-color: transparent;
     text-decoration: none;
   }
