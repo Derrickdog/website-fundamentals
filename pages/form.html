@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
+    <link rel="stylesheet" href="form.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -127,7 +128,7 @@
     </div>
     <h1 class="greeting"></h1>
 
-    <h2>Login</h2>
+    <h2>Login Validation</h2>
     <form action="#" method="get">
         <div>
           <label for="user_email">*Email:</label>
@@ -141,6 +142,56 @@
         </div>
       
         <button type="submit">Login</button>
+      </form>
+
+      <h2>Min/Max Length</h2>
+      <form action="#" method="get">
+        <div>
+          <textarea placeholder="What's happening?" minlength="3" maxlength="20"></textarea>
+        </div>
+        <button type="submit">Tweet</button>
+      </form>
+
+      <h2>Number Validation</h2>
+      <form action="#" method="get">
+        <div>
+          <label for="quantity">Quantity</label>
+        </div>
+        <input type="number" id="quantity" name="quantity" min="1" max="99" value="0">
+        
+        <div>
+          <button type="submit">Place Order</button>
+        </div>
+      </form>
+
+      <h2>Pattern</h2>
+      <form action="#" method="get">
+        <div>
+          <label for="zip_code">Postal / Zip Code:</label>
+        </div>
+      
+        <input type="text" id="zip_code" name="zip_code" pattern="(\d{5}([\-]\d{4})?)" 
+        title="Please enter a valid zip code, example: 12345" placeholder="12345" required>
+      
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+
+      <h2>Style Validation</h2>
+      <form action="#" method="get">
+        <div>
+          <label for="email">Email:</label>
+        </div>
+        <input class="validate" type="email" id="email" name="email">
+      
+        <div>
+          <label for="website">Website:</label>
+        </div>
+        <input class="validate" type="url" id="website" name="website">
+        <div>
+          <button type="submit">Submit</button>
+        </div>
       </form>
 </body>
 </html>

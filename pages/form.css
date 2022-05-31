@@ -1,0 +1,14 @@
+.validate {
+    border: 2px solid #000;
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .validate:invalid {
+    border-color: red;
+  }
+  
+  .validate:valid {
+    border-color: aqua;
+  }
