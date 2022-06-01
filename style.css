@@ -25,6 +25,17 @@ img{
 ul{
   list-style-type: circle;
 }
+h2{
+  text-shadow: 3px 3px 2px black;
+  font-size: 36px;
+}
+.homepage{
+  text-shadow: 3px 3px 2px black;
+  font-size: 48px;
+}
+.none{
+  text-shadow: none;
+}
 
 /* nav */
 nav ul{

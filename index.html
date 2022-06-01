@@ -11,12 +11,13 @@
     <!--script src="index.js" defer></script-->
 </head>
 <body>
-    <h1>Homepage</h1><hr>
+    <h1 class="homepage">Homepage</h1><hr>
     <!--p>By Derrick</p-->
 
     <nav>
       <ul>
         <li><a class="big" href="pages/form.html">Forms</a></li>
+        <li><a class="big" href="pages/tables.html">Tables</a></li>
         <li><a class="big" href="pages/selectors.html">Selectors</a></li>
         <li><a class="big" href="pages/boxes.html">Box Model</a></li>
         <li><a class="big" href="pages/flexbox.html">Flexbox</a></li>
@@ -39,7 +40,7 @@
     <h2>Headings</h2>
     <div class="headings">
       <h1>Heading 1</h1>
-      <h2>Heading 2</h2>
+      <h2 class="none">Heading 2</h2>
       <h3>Heading 3</h3>
       <h4>Heading 4</h4>
       <h5>Heading 5</h5>
@@ -50,23 +51,14 @@
     <p>Almost all elements on an HTML page are just pieces of content wrapped in opening and closing HTML tags.</p>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore, distinctio ipsa. Sunt a modi rerum quaerat voluptatum qui doloribus dolorum mollitia odit esse, ipsa dignissimos illo voluptates atque? Maxime, repellendus!</p>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae nobis rerum culpa eveniet dolores at iure obcaecati debitis, eos ullam commodi repellat dignissimos eaque blanditiis quos, perferendis impedit enim?</p>
-    
-    <h2>Divs</h2>
-    <div style="background-color:black;color:white;padding:20px;">
-      <h2>London</h2>
-      <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
-    </div>
 
-    <h2>Spans</h2>
-    <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
-
-    <h2>Unordered List</h2>
+    <h2>Unordered Lists</h2>
     <ul>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
     </ul>
-    <h2>Ordered List</h2>
+    <h2>Ordered Lists</h2>
     <ol>
         <li>Item 1</li>
         <li>Item 2</li>
@@ -111,5 +103,30 @@
           <td>Mexico</td>
         </tr>
       </table>
+
+      <h2>Divs</h2>
+      <div style="background-color:black;color:white;padding:20px;">
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+      </div>
+  
+      <h2>Spans</h2>
+      <p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
+
+      <h2>Selectors</h2>
+      <h3>Class Selectors</h3>
+      <div class="alert-text">
+        Please agree to our terms of service
+      </div>
+      <p>Classes aren't required to be unique, so you can use the same class on as many elements as you want.</p>
+      <p>Elements can also have multiple selectors</p>
+      <p>.</p>
+  
+      <h3>ID Selectors</h3>
+      <div id="description">
+      ID selectors are similar to class selectors. They select an element with the given ID, which is another attribute you place on an HTML element.
+      </div>
+      <p>An element can only have <b>one</b> ID</p>
+      <p>#</p>
 </body>
 </html>
