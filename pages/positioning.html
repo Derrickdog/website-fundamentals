@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Positioning</title>
     <style>
+        .relative{
+            position: relative;
+            left: 40px;
+        }
         .card-container {
             position: relative;
             width: 100%
@@ -35,16 +39,12 @@
             left: 10px;
             background-color: wheat;
         }
-        .sticky{
-            position: sticky;
-            top: 0;
-        }
     </style>
 </head>
 <body>
     <body>
-        <h2>Relative Positioning</h2>
-        <h2 class="sticky">Sticky Positioning</h2>
+        <h2>Static Positioning</h2>
+        <h2 class="relative">Relative Positioning</h2>
         <div class="card-container">
             
         <img class="card-image" src="https://picsum.photos/450/450">
