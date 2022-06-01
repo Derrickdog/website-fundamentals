@@ -5,8 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <link rel="stylesheet" href="tables.css">
 </head>
 <body>
-    
+    <h1>Tables</h1>
+    <p>A table is a structured set of data made up of rows and columns. A table allows you to quickly and easily look up values that indicate some kind of connection between different types of data.</p>
+    <table>
+        <tr>
+            <th>First Header</th>
+            <th>Second Header</th>
+        </tr>
+        <tr>
+            <td>This is a data cell</td>
+            <td>This is also a data cell</td>
+        </tr>
+    </table>
+    <h2>Style Table</h2>
+    <table id="pink">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+
+      <h2>Nested Table</h2>
+      <p>Captions contain a description of the table contents</p>
+      <table id="table1">
+        <caption>Nested Table</caption>
+        <tr>
+          <th>title1</th>
+          <th>title2</th>
+          <th>title3</th>
+        </tr>
+        <tr>
+          <td id="nested">
+            <table id="table2">
+              <tr>
+                <td>cell1</td>
+                <td>cell2</td>
+                <td>cell3</td>
+              </tr>
+            </table>
+          </td>
+          <td>cell2</td>
+          <td>cell3</td>
+        </tr>
+        <tr>
+          <td>cell4</td>
+          <td>cell5</td>
+          <td>cell6</td>
+        </tr>
+      </table>
 </body>
 </html>

@@ -1,0 +1,12 @@
+table, tr, th{
+    border: 1px solid black;
+}
+
+#pink, #pink th, #pink td {
+    border: 1px solid;
+    width: 75%;
+    padding: 10px;
+    background-color: pink;
+    color: black;
+    border-radius: 25px;
+  }
