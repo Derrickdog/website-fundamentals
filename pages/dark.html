@@ -54,13 +54,32 @@
             .theme-toggle:focus {
             outline: var(--border-btn);
             }
+
+            #fixed{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                background-color: var(--color-base-text);
+                padding: 10px
+            }
+            #fixed a{
+                color: var(--color-base-bg);
+                text-decoration: none;
+                font-size: 28px;
+            }
+            #fixed:hover{
+                background-color: yellow;
+            }
     </style>
 </head>
+
 <body>
     <div class="container">
         <p>You're now viewing this example with the <span class='theme-name'>dark</span> theme!</p>
         <button class="theme-toggle">Toggle Theme</button>
     </div>
+    <div id="fixed"><a href="dark-system.html">Next Page</a></div>
+
     <script>
         function setTheme() {
             const root = document.documentElement;
