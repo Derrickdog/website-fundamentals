@@ -37,3 +37,20 @@ body {
 	height: var(--footer);
 	background: #232323;
 }
+
+#fixed{
+    position: absolute;
+    bottom: var(--footer);
+    right: 0;
+    background-color: white;
+    padding: 10px
+
+}
+#fixed a{
+    color: var(--main-color);
+    text-decoration: none;
+    font-size: 28px;
+}
+#fixed:hover{
+    background-color: yellow;
+}
