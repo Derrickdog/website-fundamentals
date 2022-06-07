@@ -50,7 +50,7 @@ h2{
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 16px;
+  gap: 14px;
   flex-wrap: wrap;
 }
 
