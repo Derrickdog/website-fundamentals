@@ -24,8 +24,12 @@ function addBookToLibrary(){
     myLibrary.push(new Book(title, author, numPages, haveRead));
 }
 
-//addBookToLibrary();
-
-for(let book of myLibrary){
-    console.log(book.getInfo());
+function showBooks(){
+    for(let book of myLibrary){
+        console.log(book.getInfo());
+    }
 }
+
+// DOM
+document.getElementById("addButton").addEventListener("click", addBookToLibrary);
+document.getElementById("showButton").addEventListener("click", showBooks);
