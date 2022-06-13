@@ -113,10 +113,10 @@ const FactoryFunction = string => {
     return {sayName, doSomethingNerdy};
   }
   
-  const jeff = Nerd('jeff');
+  const jeffy = Nerd('jeff');
   
-  jeff.sayName(); //my name is jeff
-  jeff.doSomethingNerdy(); // nerd stuff
+  jeffy.sayName(); //my name is jeff
+  jeffy.doSomethingNerdy(); // nerd stuff
 
   // Module
   const calculator = (() => {
