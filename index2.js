@@ -44,3 +44,13 @@ SeventhGrader.prototype = Object.create(Student.prototype);
 const carl = new SeventhGrader("Carl");
 carl.sayName();
 console.log(carl.grade);
+
+// Factory Function
+const personFactory = (name, age) => {
+    const sayHello = () => console.log("hello!");
+    return {name, age, sayHello};
+};
+
+const jeff = personFactory("jeff", 27);
+
+jeff.sayHello();
