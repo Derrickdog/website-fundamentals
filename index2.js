@@ -54,3 +54,17 @@ const personFactory = (name, age) => {
 const jeff = personFactory("jeff", 27);
 
 jeff.sayHello();
+
+// Closure
+const FactoryFunction = string => {
+    const capitalizeString = () => string.toUpperCase();
+    const printString = () => console.log(`----${capitalizeString()}----`);
+    return { printString };
+  };
+  
+  const taco = FactoryFunction('taco');
+  
+  //printString(); // ERROR!!
+  //capitalizeString(); // ERROR!!
+  //taco.capitalizeString(); // ERROR!!
+  taco.printString(); // this prints "----TACO----"
