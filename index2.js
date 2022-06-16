@@ -118,7 +118,7 @@ const FactoryFunction = string => {
   jeffy.sayName(); //my name is jeff
   jeffy.doSomethingNerdy(); // nerd stuff
 
-  // Module
+  // Modules
   const calculator = (() => {
     const add = (a, b) => a + b;
     const sub = (a, b) => a - b;
@@ -135,3 +135,28 @@ const FactoryFunction = string => {
   calculator.add(3,5); // 8
   calculator.sub(6,2); // 4
   calculator.mul(14,5534); // 77476
+
+  // Classes
+  class Car{
+    constructor(name, year) {
+      this.name = name;
+      this.year = year;
+    }
+    age() {
+      let date = new Date();
+      return date.getFullYear() - this.year;
+    }
+  }
+
+  let myCar = new Car("Ford", 2014);
+
+  // Inheritance
+  class Model extends Car{
+    constructor(name, year, model) {
+      super(brand, year);
+      this.model = model;
+    }
+    show() {
+      return this.age(), model;
+    }
+  }
