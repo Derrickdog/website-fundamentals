@@ -142,6 +142,12 @@ const FactoryFunction = string => {
       this.name = name;
       this.year = year;
     }
+    get name(){
+      return this._name;
+    }
+    set name(value){
+      this._name = value;
+    }
     age() {
       let date = new Date();
       return date.getFullYear() - this.year;
