@@ -1,0 +1,33 @@
+.square {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#rotate {
+    background-color: red;
+    transform: rotate(45deg);
+}
+
+#scale {
+    background-color: dodgerblue;
+    transform: scale(0.5);
+}
+
+#skew {
+    background-color: orange;
+    transform: skew(30deg);
+}
+
+#translate {
+    background-color: pink;
+    transform: translate(100px);
+}
+
+#multiple {
+    background-color: yellow;
+    transform: translate(200%) rotate(-35deg);
+}
