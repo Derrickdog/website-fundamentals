@@ -1,0 +1,75 @@
+.btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
+    color: white;
+    padding: 2% 5%;
+
+}
+
+.btn:hover {
+    background-color: black;
+    cursor: pointer
+}
+
+#full {
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.25s;
+}
+
+#shorthand {
+    transition: background-color 1s ease-out 0.25s;
+}
+
+/* squares */
+.square {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#rotate {
+    background-color: red;
+    transition: transform 3s;
+}
+#rotate:hover {
+    transform: rotate(360deg);
+}
+
+#scale {
+    background-color: dodgerblue;
+    transition: transform 2s;
+}
+#scale:hover {
+    transform: scale(200%);
+}
+
+#skew {
+    background-color: orange;
+    transition: transform 2s;
+}
+#skew:hover {
+    transform: skew(80deg);
+}
+
+#translate {
+    background-color: pink;
+    transition: transform 2s;
+}
+#translate:hover {
+    transform: translate(200%);
+}
+
+#opacity {
+    background-color: grey;
+    opacity: 1;
+    transition: opacity 2s;
+}
+#opacity:hover {
+    opacity: 0;
+}
